@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/56af9c19f7.js" crossorigin="anonymous"></script>
+  <title>TEMPERATURE CONVERTER</title>
+</head>
+<body>
+  <h2>Converterio<i class="fa-solid fa-temperature-high"></i></h2>
+<p class="grey">Enter a temperature value and select the input and output units:</p>
+
+<label for="value">Value:</label>
+<input type="number" id="value" name="value" step="0.01" required placeholder="Input value">
+
+<label for="input-scale">Input Scale:</label>
+<select id="input-scale" name="input-scale" required>
+  <option value="C">Celsius</option>
+  <option value="F">Fahrenheit</option>
+  <option value="K">Kelvin</option>
+</select>
+
+<label for="output-scale">Output Scale:</label>
+<select id="output-scale" name="output-scale" required>
+  <option value="C">Celsius</option>
+  <option value="F">Fahrenheit</option>
+  <option value="K">Kelvin</option>
+</select>
+
+<button id="convert-btn"><i class="fa-solid fa-down-left-and-up-right-to-center"></i>CONVERT</button>
+
+<p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

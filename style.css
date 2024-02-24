@@ -1,0 +1,59 @@
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+label{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+input[type="number"]{
+  border:none ;
+  box-shadow: 1px 1px 1px 2px rgba(48, 47, 47, 0.849);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+}
+#value{
+  width: 50%;
+  height:2rem;
+}
+select{
+  width: 20rem;
+}
+h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+p{
+  font-size: 2rem;
+}
+.grey{
+  color: rgb(59, 59, 59);
+}
+label {
+  display: block;
+  margin-top: 3rem;
+}
+
+input {
+  width: 100%;
+  padding: 2rem;
+  margin-top: .5rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: 1rem;
+}
